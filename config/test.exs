@@ -15,7 +15,7 @@ config :phoenix_toggl, PhoenixToggl.Repo,
   username: "postgres",
   password: "postgres",
   database: "phoenix_toggl_test",
-  hostname: "localhost",
+  hostname: "db",
   pool: Ecto.Adapters.SQL.Sandbox
 
 # Guardian configuration

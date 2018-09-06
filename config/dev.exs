@@ -38,7 +38,7 @@ config :phoenix_toggl, PhoenixToggl.Repo,
   username: "postgres",
   password: "postgres",
   database: "phoenix_toggl_dev",
-  hostname: "localhost",
+  hostname: "db",
   pool_size: 10
 
 # Guardian configuration
